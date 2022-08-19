@@ -128,7 +128,7 @@ ul {
 }
 
 .noticia_uno {
-  background-image: url(imagenes/battaglia.jpg);
+  background-image: url(Imagenes/battaglia.jpg);
   width: 60%;
   height: 200px;
   border: 2px solid white;
@@ -139,7 +139,7 @@ ul {
 }
 
 .noticia_dos {
-  background-image: url(imagenes/dobleindemnizacion.jpg);
+  background-image: url(Imagenes/dobleindemnizacion.jpg);
   width: 60%;
   height: 200px;
   border: 2px solid white;
@@ -172,7 +172,7 @@ ul {
 }
 
 .doctrina_dos {
-  background-image: url(imagenes/prosti.jpg);
+  background-image: url(Imagenes/prosti.jpg);
   width: 60%;
   height: 200px;
   border: 2px solid white;
@@ -205,7 +205,7 @@ ul {
 }
 
 .actividad_dos {
-  background-image: url(imagenes/gante.jpg);
+  background-image: url(Imagenes/gante.jpg);
   width: 60%;
   height: 200px;
   border: 2px solid white;
@@ -315,7 +315,7 @@ h3 {
 .gaston {
   width: 100px;
   height: auto;
-  background-image: url(imagenes/foto.jpg);
+  background-image: url(Imagenes/foto.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -431,7 +431,7 @@ main p {
   background-size: cover;
   margin-top: 2%;
   margin-bottom: 2%;
-  background-image: url(imagenes/barcelona.jpeg);
+  background-image: url(Imagenes/barcelona.jpeg);
   background-size: cover;
 }
 
@@ -442,7 +442,7 @@ main p {
   background-size: cover;
   margin-top: 2%;
   margin-bottom: 2%;
-  background-image: url(imagenes/granada.jpg);
+  background-image: url(Imagenes/granada.jpg);
   background-size: cover;
 }
 
@@ -453,7 +453,7 @@ main p {
   background-size: cover;
   margin-top: 2%;
   margin-bottom: 2%;
-  background-image: url(imagenes/saopaolo.jpg);
+  background-image: url(Imagenes/saopaolo.jpg);
   background-size: cover;
 }
 
@@ -464,7 +464,7 @@ main p {
   background-size: cover;
   margin-top: 2%;
   margin-bottom: 2%;
-  background-image: url(imagenes/mendoza.jpg);
+  background-image: url(Imagenes/mendoza.jpg);
   background-size: cover;
 }
 
@@ -475,7 +475,7 @@ main p {
   background-size: cover;
   margin-top: 2%;
   margin-bottom: 2%;
-  background-image: url(imagenes/gante.jpg);
+  background-image: url(Imagenes/gante.jpg);
   background-size: cover;
 }
 
@@ -496,7 +496,7 @@ main p {
   background-size: cover;
   margin-top: 2%;
   margin-bottom: 2%;
-  background-image: url(imagenes/tecnico.jpg);
+  background-image: url(Imagenes/tecnico.jpg);
   background-size: cover;
 }
 
@@ -507,7 +507,7 @@ main p {
   background-size: cover;
   margin-top: 2%;
   margin-bottom: 2%;
-  background-image: url(imagenes/prosti.jpg);
+  background-image: url(Imagenes/prosti.jpg);
   background-size: cover;
 }
 @media (min-width: 481px) {
@@ -518,7 +518,7 @@ main p {
     background-size: cover;
     margin-top: 2%;
     margin-bottom: 2%;
-    background-image: url(imagenes/prostituta.jpg);
+    background-image: url(Imagenes/prostituta.jpg);
     background-size: cover;
   }
 }
@@ -530,7 +530,7 @@ main p {
   background-size: cover;
   margin-top: 2%;
   margin-bottom: 2%;
-  background-image: url(imagenes/metaversote.jpg);
+  background-image: url(Imagenes/metaversote.jpg);
   background-size: cover;
 }
 @media (min-width: 481px) {
@@ -541,7 +541,7 @@ main p {
     background-size: cover;
     margin-top: 2%;
     margin-bottom: 2%;
-    background-image: url(imagenes/metaversodos.jpg);
+    background-image: url(Imagenes/metaversodos.jpg);
     background-size: cover;
   }
 }
@@ -689,7 +689,7 @@ main p {
 }
 
 .novedadUno {
-  background-image: url(imagenes/battaglia.jpg);
+  background-image: url(Imagenes/battaglia.jpg);
   width: 60%;
   height: 200px;
   border: 2px solid white;
@@ -699,7 +699,7 @@ main p {
 }
 
 .novedadDos {
-  background-image: url(imagenes/dobleindemnizacion.jpg);
+  background-image: url(Imagenes/dobleindemnizacion.jpg);
   background-size: cover;
   width: 60%;
   height: 200px;
@@ -710,7 +710,7 @@ main p {
 }
 
 .novedadTres {
-  background-image: url(imagenes/incendio.jpg);
+  background-image: url(Imagenes/incendio.jpg);
   background-size: cover;
   width: 60%;
   height: 200px;
@@ -721,7 +721,7 @@ main p {
 }
 
 .novedadCuatro {
-  background-image: url(imagenes/disciminacion.jpg);
+  background-image: url(Imagenes/disciminacion.jpg);
   background-size: cover;
   width: 60%;
   height: 200px;
@@ -732,7 +732,7 @@ main p {
 }
 
 .novedadCinco {
-  background-image: url(imagenes/maestraDespedida.jpg);
+  background-image: url(Imagenes/maestraDespedida.jpg);
   background-size: cover;
   width: 60%;
   height: 200px;
@@ -784,7 +784,7 @@ main p {
 }
 
 .startups {
-  background-image: url(imagenes/despidomasivo.jpg);
+  background-image: url(Imagenes/despidomasivo.jpg);
   background-size: cover;
   width: 60%;
   height: 200px;
@@ -795,7 +795,7 @@ main p {
 }
 
 .neymar {
-  background-image: url(imagenes/neymar.jpg);
+  background-image: url(Imagenes/neymar.jpg);
   background-size: cover;
   width: 60%;
   height: 200px;
@@ -806,7 +806,7 @@ main p {
 }
 
 .plataformas {
-  background-image: url(imagenes/crypto.jpg);
+  background-image: url(Imagenes/crypto.jpg);
   background-size: cover;
   width: 60%;
   height: 200px;
@@ -817,7 +817,7 @@ main p {
 }
 
 .cuper {
-  background-image: url(imagenes/hectorCuper.jpg);
+  background-image: url(Imagenes/hectorCuper.jpg);
   background-size: cover;
   width: 60%;
   height: 200px;
