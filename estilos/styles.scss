@@ -100,7 +100,8 @@ ul{
     text-align: center;
     margin: 0%;
     padding: 0%;
-    justify-items:center;    
+    justify-items:center;
+    background-color: $fondonegro;    
     
     @media (min-width:991px){
         display: grid;
@@ -129,7 +130,7 @@ ul{
  
 
 .noticia_uno{    
-    background-image: url(Imagenes/battaglia.jpg);
+    background-image: url(../Imagenes/battaglia.jpg);
     width: 60%;
     height: 200px;
     border: 2px solid white;    
@@ -140,7 +141,7 @@ ul{
 }
 
 .noticia_dos{
-    background-image: url(Imagenes/dobleindemnizacion.jpg);
+    background-image: url(../Imagenes/dobleindemnizacion.jpg);
     width: 60%;
     height: 200px;
     border: 2px solid white;    
@@ -151,7 +152,7 @@ ul{
 }
 
 .noticia_tres{
-    background-image: url(Imagenes/incendio.jpg);
+    background-image: url(../Imagenes/incendio.jpg);
     width: 60%;
     height: 200px;
     border: 2px solid white;    
@@ -162,7 +163,7 @@ ul{
 }
 
 .doctrina_uno{    
-    background-image: url(Imagenes/tecnico.jpg);
+    background-image: url(../Imagenes/tecnico.jpg);
     width: 60%;
     height: 200px;
     border: 2px solid white;    
@@ -173,7 +174,7 @@ ul{
 }
 
 .doctrina_dos{
-    background-image: url(Imagenes/prosti.jpg);
+    background-image: url(../Imagenes/prosti.jpg);
     width: 60%;
     height: 200px;
     border: 2px solid white;    
@@ -184,7 +185,7 @@ ul{
 }
 
 .doctrina_tres{
-    background-image: url(Imagenes/metaversote.jpg);
+    background-image: url(../Imagenes/metaversote.jpg);
     width: 60%;
     height: 200px;
     border: 2px solid white;    
@@ -196,7 +197,7 @@ ul{
 
 
 .actividad_uno{    
-    background-image: url(Imagenes/saopaolo.jpg);
+    background-image: url(../Imagenes/saopaolo.jpg);
     width: 60%;
     height: 200px;
     border: 2px solid white;    
@@ -207,7 +208,7 @@ ul{
 }
 
 .actividad_dos{
-    background-image: url(Imagenes/gante.jpg);
+    background-image: url(../Imagenes/gante.jpg);
     width: 60%;
     height: 200px;
     border: 2px solid white;    
@@ -218,7 +219,7 @@ ul{
 }
 
 .actividad_tres{
-    background-image: url(Imagenes/mendoza.jpg);
+    background-image: url(../Imagenes/mendoza.jpg);
     width: 60%;
     height: 200px;
     border: 2px solid white;    
@@ -330,7 +331,7 @@ h3{
 .gaston{
     width: 100px;
     height: auto;
-    background-image: url(Imagenes/foto.jpg);
+    background-image: url(../Imagenes/foto.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -471,7 +472,7 @@ main{
     background-size: cover;
     margin-top: 2%;
     margin-bottom: 2%;
-    background-image: url(Imagenes/barcelona.jpeg);
+    background-image: url(../Imagenes/barcelona.jpeg);
     background-size: cover;
 }
 
@@ -482,7 +483,7 @@ main{
     background-size: cover;
     margin-top: 2%;
     margin-bottom: 2%;
-    background-image: url(Imagenes/granada.jpg);
+    background-image: url(../Imagenes/granada.jpg);
     background-size: cover;
 
 }
@@ -494,7 +495,7 @@ main{
     background-size: cover;
     margin-top: 2%;
     margin-bottom: 2%;
-    background-image: url(Imagenes/saopaolo.jpg);
+    background-image: url(../Imagenes/saopaolo.jpg);
     background-size: cover;
 
 }
@@ -506,7 +507,7 @@ main{
     background-size: cover;
     margin-top: 2%;
     margin-bottom: 2%;
-    background-image: url(Imagenes/mendoza.jpg);
+    background-image: url(../Imagenes/mendoza.jpg);
     background-size: cover;
 
 }
@@ -518,7 +519,7 @@ main{
     background-size: cover;
     margin-top: 2%;
     margin-bottom: 2%;
-    background-image: url(Imagenes/gante.jpg);
+    background-image: url(../Imagenes/gante.jpg);
     background-size: cover;
 
 }
@@ -541,7 +542,7 @@ main{
     background-size: cover;
     margin-top: 2%;
     margin-bottom: 2%;
-    background-image: url(Imagenes/tecnico.jpg);
+    background-image: url(../Imagenes/tecnico.jpg);
     background-size: cover;    
 }
 
@@ -552,7 +553,7 @@ main{
     background-size: cover;
     margin-top: 2%;
     margin-bottom: 2%;
-    background-image: url(Imagenes/prosti.jpg);
+    background-image: url(../Imagenes/prosti.jpg);
     background-size: cover;    
 
     @media (min-width:481px){
@@ -562,7 +563,7 @@ main{
         background-size: cover;
         margin-top: 2%;
         margin-bottom: 2%;
-        background-image: url(Imagenes/prostituta.jpg);
+        background-image: url(../Imagenes/prostituta.jpg);
         background-size: cover; 
     }
 }
@@ -574,7 +575,7 @@ main{
     background-size: cover;
     margin-top: 2%;
     margin-bottom: 2%;
-    background-image: url(Imagenes/metaversote.jpg);
+    background-image: url(../Imagenes/metaversote.jpg);
     background-size: cover;  
     
     @media (min-width:481px){
@@ -585,7 +586,7 @@ main{
             background-size: cover;
             margin-top: 2%;
             margin-bottom: 2%;
-            background-image: url(Imagenes/metaversodos.jpg);
+            background-image: url(../Imagenes/metaversodos.jpg);
             background-size: cover;           
         } 
     }
@@ -751,7 +752,7 @@ main{
 }
 
 .novedadUno{
-    background-image: url(Imagenes/battaglia.jpg);
+    background-image: url(../Imagenes/battaglia.jpg);
     width: 60%;
     height: 200px;
     border: 2px solid white;    
@@ -762,7 +763,7 @@ main{
 }
 
 .novedadDos{
-    background-image: url(Imagenes/dobleindemnizacion.jpg);
+    background-image: url(../Imagenes/dobleindemnizacion.jpg);
     background-size: cover;
     width: 60%;
     height: 200px;
@@ -773,7 +774,7 @@ main{
 }
 
 .novedadTres{
-    background-image: url(Imagenes/incendio.jpg);
+    background-image: url(../Imagenes/incendio.jpg);
     background-size: cover;
     width: 60%;
     height: 200px;
@@ -784,7 +785,7 @@ main{
 }
 
 .novedadCuatro{
-    background-image: url(Imagenes/disciminacion.jpg);
+    background-image: url(../Imagenes/disciminacion.jpg);
     background-size: cover;
     width: 60%;
     height: 200px;
@@ -795,7 +796,7 @@ main{
 }
 
 .novedadCinco{
-    background-image: url(Imagenes/maestraDespedida.jpg);
+    background-image: url(../Imagenes/maestraDespedida.jpg);
     background-size: cover;
     width: 60%;
     height: 200px;
@@ -846,7 +847,7 @@ main{
 }
 
 .startups{
-    background-image: url(Imagenes/despidomasivo.jpg);
+    background-image: url(../Imagenes/despidomasivo.jpg);
     background-size: cover;
     width: 60%;
     height: 200px;
@@ -857,7 +858,7 @@ main{
 }
 
 .neymar{
-    background-image: url(Imagenes/neymar.jpg);
+    background-image: url(../Imagenes/neymar.jpg);
     background-size: cover;
     width: 60%;
     height: 200px;
@@ -868,7 +869,7 @@ main{
 }
 
 .plataformas{
-    background-image: url(Imagenes/crypto.jpg);
+    background-image: url(../Imagenes/crypto.jpg);
     background-size: cover;
     width: 60%;
     height: 200px;
@@ -879,7 +880,7 @@ main{
 }
 
 .cuper{
-    background-image: url(Imagenes/hectorCuper.jpg);
+    background-image: url(../Imagenes/hectorCuper.jpg);
     background-size: cover;
     width: 60%;
     height: 200px;

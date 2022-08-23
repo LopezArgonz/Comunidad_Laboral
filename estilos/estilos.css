@@ -78,13 +78,6 @@ ul{
 }
 
 
-.contain{
-    display: flex;
-    justify-content: center;
-    background-color: black;
-}
-
-
 .contenido{
     display: grid;
     width: 80%;   
@@ -93,7 +86,8 @@ ul{
     text-align: center;
     margin: 0%;
     padding: 0%;
-    justify-items:center;              
+    justify-items:center;  
+    background-color: black;            
 } 
 
 
