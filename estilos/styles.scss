@@ -86,6 +86,11 @@ ul{
 	100% {margin-left: -400%;}
 }
 
+section{
+    h2{
+        text-transform: uppercase;
+    }
+}
 .contain{
     display: flex;
     justify-content: center;
@@ -100,7 +105,7 @@ ul{
     text-align: center;
     margin: 0%;
     padding: 0%;
-    justify-items:center;
+    justify-content: space-around;
     background-color: $fondonegro;    
     
     @media (min-width:991px){
@@ -111,7 +116,7 @@ ul{
         text-align: center;
         margin: 0%;
         padding: 0%;
-        justify-items:center;              
+        justify-content: space-evenly;                     
     } 
    
 
@@ -131,9 +136,9 @@ ul{
 
 .noticia_uno{    
     background-image: url(../Imagenes/battaglia.jpg);
-    width: 60%;
-    height: 200px;
-    border: 2px solid white;    
+    border: 2px solid white;  
+    width: auto;
+    height: 300px;  
     background-size: cover;
     margin-top: 2%;
     margin-bottom: 2%;  
@@ -142,9 +147,9 @@ ul{
 
 .noticia_dos{
     background-image: url(../Imagenes/dobleindemnizacion.jpg);
-    width: 60%;
-    height: 200px;
-    border: 2px solid white;    
+    border: 2px solid white; 
+    width: auto;
+    height: 300px;   
     background-size: cover;
     margin-top: 2%;
     margin-bottom: 2%;
@@ -153,8 +158,8 @@ ul{
 
 .noticia_tres{
     background-image: url(../Imagenes/incendio.jpg);
-    width: 60%;
-    height: 200px;
+    width: auto;
+    height: 300px;
     border: 2px solid white;    
     background-size: cover;
     margin-top: 2%;
@@ -164,8 +169,8 @@ ul{
 
 .doctrina_uno{    
     background-image: url(../Imagenes/tecnico.jpg);
-    width: 60%;
-    height: 200px;
+    width: auto;
+    height: 300px;
     border: 2px solid white;    
     background-size: cover;
     margin-top: 2%;
@@ -175,8 +180,8 @@ ul{
 
 .doctrina_dos{
     background-image: url(../Imagenes/prosti.jpg);
-    width: 60%;
-    height: 200px;
+    width: auto;
+    height: 300px;
     border: 2px solid white;    
     background-size: cover;
     margin-top: 2%;
@@ -186,8 +191,8 @@ ul{
 
 .doctrina_tres{
     background-image: url(../Imagenes/metaversote.jpg);
-    width: 60%;
-    height: 200px;
+    width: auto;
+    height: 300px;
     border: 2px solid white;    
     background-size: cover;
     margin-top: 2%;
@@ -198,8 +203,8 @@ ul{
 
 .actividad_uno{    
     background-image: url(../Imagenes/saopaolo.jpg);
-    width: 60%;
-    height: 200px;
+    width: auto;
+    height: 300px;
     border: 2px solid white;    
     background-size: cover;
     margin-top: 2%;
@@ -209,8 +214,8 @@ ul{
 
 .actividad_dos{
     background-image: url(../Imagenes/gante.jpg);
-    width: 60%;
-    height: 200px;
+    width: auto;
+    height: 300px;
     border: 2px solid white;    
     background-size: cover;
     margin-top: 2%;
@@ -220,8 +225,8 @@ ul{
 
 .actividad_tres{
     background-image: url(../Imagenes/mendoza.jpg);
-    width: 60%;
-    height: 200px;
+    width: auto;
+    height: 300px;
     border: 2px solid white;    
     background-size: cover;
     margin-top: 2%;
@@ -378,6 +383,10 @@ main{
         border: 10px;     
         background-size: 5px;
     }
+
+    h2{
+        text-transform:uppercase;
+    }
 }
 
 .pie{
@@ -524,26 +533,40 @@ main{
 
 }
 
-
+.cont_doctrina{
+    display: flex;
+    justify-content: center;
+}
 .cont_ultimas{
     display: flex;    
-    background-color: $fondonegro;
-    align-items: stretch;    
-    flex-wrap: wrap;
+    background-color: $fondonegro;     
     flex-direction: column;    
     align-items: center;
-    text-align: center;
+    text-align: center;    
+
+    @media (min-width:991px){
+        display: grid;
+        width: 80%;   
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 2%;    
+        text-align: center;
+        margin: 0%;
+        padding: 0%;
+        justify-items:center;              
+    } 
 }
 
 .directores{
     width: 80%;
     height: 200px;
-    border: 2px solid white;    
-    background-size: cover;
+    border: 2px solid white;     
     margin-top: 2%;
     margin-bottom: 2%;
     background-image: url(../Imagenes/tecnico.jpg);
+    background-repeat: no-repeat;    
     background-size: cover;    
+ 
+
 }
 
 .prosti{
@@ -575,19 +598,18 @@ main{
     background-size: cover;
     margin-top: 2%;
     margin-bottom: 2%;
-    background-image: url(../Imagenes/metaversote.jpg);
-    background-size: cover;  
+    background-image: url(../Imagenes/metaversote.jpg);  
     
+ 
     @media (min-width:481px){
         .metaverso{
             width: 80%;
             height: 200px;
             border: 2px solid white;    
-            background-size: cover;
+            background-size: contain;
             margin-top: 2%;
             margin-bottom: 2%;
-            background-image: url(../Imagenes/metaversodos.jpg);
-            background-size: cover;           
+            background-image: url(../Imagenes/metaversodos.jpg);              
         } 
     }
 }
