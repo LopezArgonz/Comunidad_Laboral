@@ -1,5 +1,14 @@
 $fondonegro: black;
 $fondogris: #CCD1D1;
+@mixin cuadrado{
+    border: 2px solid white;  
+    width: 100%;
+    height: 300px;  
+    background-size: cover;
+    margin-top: 2%;
+    margin-bottom: 2%;  
+    text-align: center;   
+}
 
 Html,
 Body {
@@ -30,7 +39,7 @@ ul{
     }
 }
 
-.menu {
+.menu {  
     li{
         a{ 
             &:hover{
@@ -38,6 +47,20 @@ ul{
             }
         }       
     }
+
+    ul{
+        justify-content: space-around!important;
+        column-gap: 90px;
+    }
+
+    @media (min-width:991px){
+        display: flex!important;
+        justify-content: space-around!important;
+        column-gap: 50px;
+        padding: 0!important;
+        padding-left: 5%!important;       
+    }
+    
 }
 
 .slider_principal{
@@ -105,8 +128,9 @@ section{
     text-align: center;
     margin: 0%;
     padding: 0%;
-    justify-content: space-around;
-    background-color: $fondonegro;    
+    justify-content: center;
+    background-color: $fondonegro;
+    justify-items: center;    
     
     @media (min-width:991px){
         display: grid;
@@ -116,7 +140,7 @@ section{
         text-align: center;
         margin: 0%;
         padding: 0%;
-        justify-content: space-evenly;                     
+        justify-content: space-around;                     
     } 
    
 
@@ -136,102 +160,48 @@ section{
 
 .noticia_uno{    
     background-image: url(../Imagenes/battaglia.jpg);
-    border: 2px solid white;  
-    width: auto;
-    height: 300px;  
-    background-size: cover;
-    margin-top: 2%;
-    margin-bottom: 2%;  
-    text-align: center;
+   @include cuadrado();
 }
 
 .noticia_dos{
     background-image: url(../Imagenes/dobleindemnizacion.jpg);
-    border: 2px solid white; 
-    width: auto;
-    height: 300px;   
-    background-size: cover;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    text-align: center;    
+    @include cuadrado();   
 }
 
 .noticia_tres{
     background-image: url(../Imagenes/incendio.jpg);
-    width: auto;
-    height: 300px;
-    border: 2px solid white;    
-    background-size: cover;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    text-align: center;
+    @include cuadrado();
 }
 
 .doctrina_uno{    
     background-image: url(../Imagenes/tecnico.jpg);
-    width: auto;
-    height: 300px;
-    border: 2px solid white;    
-    background-size: cover;
-    margin-top: 2%;
-    margin-bottom: 2%; 
-    text-align: center;     
+    @include cuadrado();   
 }
 
 .doctrina_dos{
     background-image: url(../Imagenes/prosti.jpg);
-    width: auto;
-    height: 300px;
-    border: 2px solid white;    
-    background-size: cover;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    text-align: center;    
+    @include cuadrado();   
 }
 
 .doctrina_tres{
     background-image: url(../Imagenes/metaversote.jpg);
-    width: auto;
-    height: 300px;
-    border: 2px solid white;    
-    background-size: cover;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    text-align: center;    
+    @include cuadrado(); 
 }
 
 
 .actividad_uno{    
     background-image: url(../Imagenes/saopaolo.jpg);
-    width: auto;
-    height: 300px;
-    border: 2px solid white;    
-    background-size: cover;
-    margin-top: 2%;
-    margin-bottom: 2%; 
-    text-align: center;     
+    @include cuadrado();  
 }
 
 .actividad_dos{
     background-image: url(../Imagenes/gante.jpg);
-    width: auto;
-    height: 300px;
-    border: 2px solid white;    
-    background-size: cover;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    text-align: center;    
+    @include cuadrado();  
 }
 
 .actividad_tres{
     background-image: url(../Imagenes/mendoza.jpg);
-    width: auto;
-    height: 300px;
-    border: 2px solid white;    
-    background-size: cover;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    text-align: center;    
+    @include cuadrado();
 }
 
 .mas{
@@ -408,24 +378,6 @@ main{
     }
 }
 
-
-.proximas_actividades{
-    display: flex;    
-    background-color: $fondonegro;
-    align-items: stretch;    
-    flex-wrap: wrap;
-    flex-direction: column;    
-    align-items: center;  
-
-    div{
-        a{
-            text-align: center;  
-        }
-    }
-
-}
-
-
 .main_cursos{
     background-color: $fondonegro;
 
@@ -482,7 +434,7 @@ main{
     margin-top: 2%;
     margin-bottom: 2%;
     background-image: url(../Imagenes/barcelona.jpeg);
-    background-size: cover;
+    background-size: cover;       
 }
 
 .granada{
@@ -556,62 +508,19 @@ main{
     } 
 }
 
-.directores{
-    width: 80%;
-    height: 200px;
-    border: 2px solid white;     
-    margin-top: 2%;
-    margin-bottom: 2%;
+.directores{    
     background-image: url(../Imagenes/tecnico.jpg);
-    background-repeat: no-repeat;    
-    background-size: cover;    
- 
-
+    @include cuadrado();
 }
 
-.prosti{
-    width: 80%;
-    height: 200px;
-    border: 2px solid white;    
-    background-size: cover;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    background-image: url(../Imagenes/prosti.jpg);
-    background-size: cover;    
-
-    @media (min-width:481px){
-        width: 80%;
-        height: 200px;
-        border: 2px solid white;    
-        background-size: cover;
-        margin-top: 2%;
-        margin-bottom: 2%;
-        background-image: url(../Imagenes/prostituta.jpg);
-        background-size: cover; 
-    }
+.prosti{    
+    background-image: url(../Imagenes/prostituta.jpg);
+    @include cuadrado();
 }
 
-.metaverso{
-    width: 80%;
-    height: 200px;
-    border: 2px solid white;    
-    background-size: cover;
-    margin-top: 2%;
-    margin-bottom: 2%;
+.metaverso{    
     background-image: url(../Imagenes/metaversote.jpg);  
-    
- 
-    @media (min-width:481px){
-        .metaverso{
-            width: 80%;
-            height: 200px;
-            border: 2px solid white;    
-            background-size: contain;
-            margin-top: 2%;
-            margin-bottom: 2%;
-            background-image: url(../Imagenes/metaversodos.jpg);              
-        } 
-    }
+    @include cuadrado();     
 }
 
 .com_foto,
@@ -749,17 +658,7 @@ main{
     margin: 0%;
     padding: 0%;
     justify-items:center; 
-    
-    @media (min-width:481px){
-        display: grid;
-        width: 80%;   
-        grid-template-columns: 1fr 1fr;
-        grid-column-gap: 2%;    
-        text-align: center;
-        margin: 0%;
-        padding: 0%;
-        justify-items:center;   
-    }
+
 
     @media (min-width:991px){
         display: grid;
@@ -775,57 +674,28 @@ main{
 
 .novedadUno{
     background-image: url(../Imagenes/battaglia.jpg);
-    width: 60%;
-    height: 200px;
-    border: 2px solid white;    
-    background-size: cover;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    @include cuadrado();
     
 }
 
 .novedadDos{
     background-image: url(../Imagenes/dobleindemnizacion.jpg);
-    background-size: cover;
-    width: 60%;
-    height: 200px;
-    border: 2px solid white;    
-    background-size: cover;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    @include cuadrado();
 }
 
 .novedadTres{
     background-image: url(../Imagenes/incendio.jpg);
-    background-size: cover;
-    width: 60%;
-    height: 200px;
-    border: 2px solid white;    
-    background-size: cover;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    @include cuadrado();
 }
 
 .novedadCuatro{
     background-image: url(../Imagenes/disciminacion.jpg);
-    background-size: cover;
-    width: 60%;
-    height: 200px;
-    border: 2px solid white;    
-    background-size: cover;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    @include cuadrado();
 }
 
 .novedadCinco{
     background-image: url(../Imagenes/maestraDespedida.jpg);
-    background-size: cover;
-    width: 60%;
-    height: 200px;
-    border: 2px solid white;    
-    background-size: cover;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    @include cuadrado();
 }
 
 
@@ -843,18 +713,8 @@ main{
     text-align: center;
     margin: 0%;
     padding: 0%;
-    justify-items:center;   
-    
-    @media (min-width:481px){
-        display: grid;
-        width: 80%;   
-        grid-template-columns: 1fr 1fr;
-        grid-column-gap: 2%;    
-        text-align: center;
-        margin: 0%;
-        padding: 0%;
-        justify-items:center;
-    }
+    justify-items:center;       
+   
 
     @media (min-width:991px){
         display: grid;
@@ -870,46 +730,22 @@ main{
 
 .startups{
     background-image: url(../Imagenes/despidomasivo.jpg);
-    background-size: cover;
-    width: 60%;
-    height: 200px;
-    border: 2px solid white;    
-    background-size: cover;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    @include cuadrado();
 }
 
 .neymar{
     background-image: url(../Imagenes/neymar.jpg);
-    background-size: cover;
-    width: 60%;
-    height: 200px;
-    border: 2px solid white;    
-    background-size: cover;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    @include cuadrado();
 }
 
 .plataformas{
     background-image: url(../Imagenes/crypto.jpg);
-    background-size: cover;
-    width: 60%;
-    height: 200px;
-    border: 2px solid white;    
-    background-size: cover;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    @include cuadrado();
 }
 
 .cuper{
     background-image: url(../Imagenes/hectorCuper.jpg);
-    background-size: cover;
-    width: 60%;
-    height: 200px;
-    border: 2px solid white;    
-    background-size: cover;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    @include cuadrado();
 }
 
 
@@ -966,3 +802,44 @@ em{
     color: white;
     text-decoration: none;
 }
+
+.menus {  
+    li{
+        a{ 
+            &:hover{
+                color: black;
+            }
+        }       
+    }
+
+    ul{
+        justify-content: space-around!important;
+        column-gap: 90px;
+    }
+
+    @media (min-width:991px){
+        display: flex!important;
+        justify-content: space-around!important;
+        column-gap: 50px;
+        padding: 0!important;             
+    }
+    
+}
+
+.formulario{    
+    h2{
+        font-family: 'Roboto', sans-serif;
+        text-transform: uppercase;       
+        font-size: medium;
+        color: black;
+    }
+
+}
+
+.seccion_actividades{
+    background-color: $fondonegro;
+}
+
+
+
+

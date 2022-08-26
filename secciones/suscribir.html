@@ -1,128 +1,89 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">       
+    <meta charset="UTF-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximun-scale=1"/>
+    <meta name="keywords" content="derecho, laboral, doctrina, asesoramiento, noticias, cursos"/>
+    <meta name="Description" content="Sitio web orientado a estudiantes, trabajadores y profesionales del derecho del trabajo; con doctrina, noticias, cursos y asesoramiento gratuito"/>
     <title>Comunidad Laboral</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;600&family=Roboto:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximun-scale=1"/>
     <link rel= "stylesheet" href="../estilos/font.css"> 
-    <link rel= "stylesheet" href="../estilos/styles.scss">
+    <link rel= "stylesheet" href="../estilos/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 </head>
 <body>
-    <div class="barra-redes">
-        <a href="https://www.facebook.com/gaston.lopezargonz" class="icon icon-facebook2" target="_blank"></a>
-        <a href="https://www.instagram.com/gastonloparg/" class="icon icon-instagram" target="_blank"></a>
-        <a href="https://www.youtube.com/channel/UCCSK67YzA8qZgPlNMRFgFgw" class="icon icon-youtube" target="_blank"></a>
-        <a href="https://twitter.com/tonga999" class="icon icon-twitter" target="_blank"></a>
-        <a href="https://open.spotify.com/user/214rvefwta4w4ae7evwmf3guy" class="icon icon-spotify" target="_blank"></a>
-        <a href="https://www.linkedin.com/in/gast%C3%B3n-emiliano-lopez-argonz-911171152/" class="icon icon-linkedin" target="_blank"></a>
-    </div>
-    
     <div>
         <div class="logo">
             <img src="../Imagenes/logocompleto.jpg" alt="logo" title="logo" width="150">        
             <img src="../Imagenes/logo_letras.jpg" alt="logo en letras" title="logo en letras" width="300">
         </div>
     </div>
-           
-    <nav class="navbar navbar-expand-lg bg-light h5 menu">
-        <div class="container-fluid">
-            <a class="navbar-brand" img src="../Imagenes/logosolo.jpg" href="../index.html"></a>
+    <nav class="navbar navbar-expand-lg bg-light h5" >
+        <div class="container-fluid menus">
+            <a class="navbar-brand" img src="Imagenes/logosolo.jpg" href="index.html"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarScroll">
-                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                <ul class="navbar-nav" style="--bs-scroll-height: 100px;">
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="../index.html">INICIO</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../secciones/doctrina.html">DOCTRINA</a>
+                        <a class="nav-link" aria-current="page" href="noticias.html">NOTICIAS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../secciones/actividades.html">ACTIVIDADES</a>
+                        <a class="nav-link" href="doctrina.html">DOCTRINA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="actividades.html">ACTIVIDADES</a>
                     </li>               
                     <li class="nav-item">
-                        <a class="nav-link" href="../secciones/asesoramiento.html">ASESORAMIENTO</a>
+                        <a class="nav-link" href="asesoramiento.html">ASESORAMIENTO</a>
                     </li> 
                     <li class="nav-item">
-                        <a class="nav-link" href="../secciones/cursos.html">CURSOS</a>
+                        <a class="nav-link" href="cursos.html">CURSOS</a>
                     </li>               
                 </ul>            
             </div>
         </div>
     </nav>
-
-    <main class="main_comunidad">
-        <div>
-            <h1>Noticias</h1>
-        </div>
-         
+    <div>        
+        <h1>Suscribite a nuestras noticias</h1>
         <nav class="navbar bg-light">
             <div class="container-fluid">
-              <form class="d-flex flex-grow-1" role="search">
-                <input class="form-control me-2 " type="search" placeholder="Buscar en noticias" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Buscar</button>
-              </form>
+                <form class="d-flex flex-grow-1" role="search">
+                <input class="form-control me-2 " type="search" placeholder="Dejanos aquí tu correo electrónico" aria-label="Search">                    
             </div>
         </nav>
-       
-        <section>           
-            <div>
-                    <h2>Ultimas novedades</h2>
-            </div>
-            
-            <div class="section_ultimas">
-                <div class="ultimasNovedades">
-                    <div class="novedadUno">
-                        <h3>El despido de Battaglia en Boca</h3>
-                        </div>
-                            <div class="novedadDos">
-                                <h3>Tachame la doble</h3>
-                            </div>
-                            <div class="novedadTres">
-                                <h3>Incendio en una fábrica de Avellaneda</h3>
-                            </div>
-                            <div class="novedadCuatro">
-                                <h3>Despido - AUSA-</h3>
-                            </div>
-                            <div class="novedadCinco">
-                                <h3>Despiden a una maestra por tener cuenta en Onlyfans</h3>
-                            </div>                       
-                        </div>
-                    </div>
-                </div>
-            <div>
-                <h2>Noticias junio 2022</h2>
-            </div>    
-            
-            <div class="nov_junio">            
-                <div class="novedadesJunio">
-                    <div class="startups">
-                        <a href="https://www.lanacion.com.ar/el-mundo/me-echaron-frente-a-35-companeros-por-videollamada-los-despidos-masivos-de-las-startups-y-por-que-nid23062022/" target="_blank">
-                        <h3>Despidos masivos en startups</h3></a> 
-                    </div>
-                    <div class="neymar">
-                        <a href="https://www.clarin.com/deportes/psg-canso-neymar-aviso-busque-nuevo-club-fin-sociedad-messi-rol-mbappe_0_e8YyxYrtzt.html" target="_blank">
-                        <h3>Liberan a Neymar en el PSG</h3></a>
-                    </div>
-                    <div class="plataformas">
-                        <a href="https://www.clarin.com/economia/llego-hora-ajuste-ola-despidos-plataformas-cripto_0_OWDdkNiCAH.html?code=2LpBaAo2nio3-ABbW8IInlCbzeI8p6cTVN_GBjibUjc39&state=d21FLm04M2U1NkM0TFF+SmdELm1XWTRoaFFmZmExMXBoRlpEfmVZYkthWg==" target="_blank">
-                        <h3>Despidos masivos en las plataformas crypto</h3></a>                       
-                    </div>
-                    <div class="cuper">
-                        <a href="https://www.clarin.com/deportes/cuper-cobrara-medio-millon-euros-despido-republica-democratica-congo_0_qhVX7bjU9f.html" target="_blank">
-                        <h3>Despiden a Hector Cuper como seleccionador del Congo</h3></a>                       
-                    </div>
-                </div>
-            </div>            
-        </section>
-    </main>
+    </div>
+    <div class="formulario">
+        <h2>Selecciona qué información te gustaría recibir:</h2>
+        <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+            <label class="form-check-label" for="flexSwitchCheckChecked">Despidos</label>
+        </div>
+        <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+            <label class="form-check-label" for="flexSwitchCheckChecked">Accidentes</label>
+        </div>
+        <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+            <label class="form-check-label" for="flexSwitchCheckChecked">Liquidaciones</label>
+        </div>
+        <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+            <label class="form-check-label" for="flexSwitchCheckChecked">Cursos y congresos</label>
+        </div>
+        <div class="col-12">
+            <button class="btn btn-primary" type="submit">Enviar</button>
+        </div>
+    </div>
+    
     <footer>
-        <div  class="footer_uno"> 
+        <div class="footer_uno"> 
             <div class="gaston">                
             </div>
             <div>
@@ -131,14 +92,13 @@
                     C.P. 1876 <br>
                     tel. 42879087/9088/9099 <br>
                     Email: comunidadlaboral@gmail.com <br>                
-                    <a href="../secciones/contacto.html" target="_blank">CONTACTO</a>
+                    <a href="secciones/contacto.html" target="_blank">CONTACTO</a>
                 </p>
             </div>               
         </div>
         <div class="copy">
             <p>© 2022 Comunidad Laboral. Todos los derechos reservados. Prohibida su reproducción total o parcial.</p>
         </div>                
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-</body>    
+    </footer>      
+</body>
 </html>
