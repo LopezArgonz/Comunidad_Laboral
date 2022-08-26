@@ -384,7 +384,7 @@ main h2 {
   display: flex;
   justify-content: start;
   align-items: stretch;
-  border: solid 5px solid black;
+  border: 5px solid black;
 }
 .pie p {
   margin: 0%;
