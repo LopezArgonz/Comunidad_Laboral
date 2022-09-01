@@ -24,6 +24,10 @@ ul{
 .logo {
     display: flex;
     justify-content: center;
+
+    img{
+        max-width: 470px;
+    }
 }
 
 .barra-redes{   
