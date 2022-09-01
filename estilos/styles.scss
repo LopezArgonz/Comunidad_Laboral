@@ -50,7 +50,7 @@ ul{
 
     ul{
         justify-content: space-around!important;
-        column-gap: 90px;
+        column-gap: 70px;
     }
 
     @media (min-width:991px){
@@ -229,7 +229,7 @@ section{
         font-weight: bold;
         text-align: center;  
         margin: 0%;
-        padding: 20px;
+        padding: 18px;
         text-transform: uppercase;
         border: 10px;     
         background-size: 5px;
@@ -348,7 +348,7 @@ main{
         font-weight: bold;
         text-align: justify;  
         margin: 0%;
-        padding: 20px;
+        padding: 18px;
         text-transform: uppercase;
         border: 10px;     
         background-size: 5px;
@@ -597,12 +597,6 @@ main{
     }
 }
 
-.tucuenta{
-    img{
-        padding-left: 370px;
-     }
-}
-
 @supports(object-fit: cover){
     .box img{
       height: 100%;
@@ -782,7 +776,7 @@ main{
 
 .noticias{
     a{
-        @media (max-widht:481px){
+        @media (min-widht:481px){
             background-color: $fondonegro;
             display: grid;
             grid-template-columns: 1fr; 

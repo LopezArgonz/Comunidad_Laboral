@@ -32,7 +32,7 @@ ul {
 }
 .menu ul {
   justify-content: space-around !important;
-  column-gap: 90px;
+  column-gap: 70px;
 }
 @media (min-width: 991px) {
   .menu {
@@ -269,7 +269,7 @@ section h2 {
   font-weight: bold;
   text-align: center;
   margin: 0%;
-  padding: 20px;
+  padding: 18px;
   text-transform: uppercase;
   border: 10px;
   background-size: 5px;
@@ -371,7 +371,7 @@ main p {
   font-weight: bold;
   text-align: justify;
   margin: 0%;
-  padding: 20px;
+  padding: 18px;
   text-transform: uppercase;
   border: 10px;
   background-size: 5px;
@@ -609,10 +609,6 @@ main h2 {
   font-family: "roboto", sans-serif;
 }
 
-.tucuenta img {
-  padding-left: 370px;
-}
-
 @supports (object-fit: cover) {
   .box img {
     height: 100%;
@@ -834,7 +830,7 @@ main h2 {
   justify-content: center;
 }
 
-@media (max-widht: 481px) {
+@media (min-widht: 481px) {
   .noticias a {
     background-color: black;
     display: grid;
