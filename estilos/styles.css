@@ -119,34 +119,31 @@ section h2 {
   display: grid;
   width: 80%;
   grid-template-columns: 1fr;
-  grid-column-gap: 2%;
-  text-align: center;
   margin: 0%;
   padding: 0%;
-  justify-content: center;
   background-color: black;
   justify-items: center;
+  text-align: center;
 }
 @media (min-width: 991px) {
   .contenido {
     display: grid;
-    width: 80%;
+    width: 100%;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 2%;
-    text-align: center;
     margin: 0%;
     padding: 0%;
-    justify-content: space-around;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
   }
 }
 .contenido h3 {
   margin: 0%;
   padding: 0%;
-  padding-left: 10%;
-  padding-top: 10%;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
-  align-items: center;
+  font-weight: bolder;
+  text-align: center;
 }
 
 .noticia_uno {
@@ -158,6 +155,10 @@ section h2 {
   margin-top: 2%;
   margin-bottom: 2%;
   text-align: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 5%;
 }
 
 .noticia_dos {
@@ -169,6 +170,10 @@ section h2 {
   margin-top: 2%;
   margin-bottom: 2%;
   text-align: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 5%;
 }
 
 .noticia_tres {
@@ -180,6 +185,10 @@ section h2 {
   margin-top: 2%;
   margin-bottom: 2%;
   text-align: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 5%;
 }
 
 .doctrina_uno {
@@ -191,6 +200,10 @@ section h2 {
   margin-top: 2%;
   margin-bottom: 2%;
   text-align: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 5%;
 }
 
 .doctrina_dos {
@@ -202,6 +215,10 @@ section h2 {
   margin-top: 2%;
   margin-bottom: 2%;
   text-align: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 5%;
 }
 
 .doctrina_tres {
@@ -213,6 +230,10 @@ section h2 {
   margin-top: 2%;
   margin-bottom: 2%;
   text-align: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 5%;
 }
 
 .actividad_uno {
@@ -224,6 +245,10 @@ section h2 {
   margin-top: 2%;
   margin-bottom: 2%;
   text-align: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 5%;
 }
 
 .actividad_dos {
@@ -235,6 +260,10 @@ section h2 {
   margin-top: 2%;
   margin-bottom: 2%;
   text-align: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 5%;
 }
 
 .actividad_tres {
@@ -246,6 +275,10 @@ section h2 {
   margin-top: 2%;
   margin-bottom: 2%;
   text-align: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 5%;
 }
 
 .mas {
@@ -332,6 +365,7 @@ h3 {
   color: white;
   font-family: "Roboto", sans-serif;
   text-decoration: underline;
+  font-weight: bold;
 }
 
 .gaston {
@@ -420,6 +454,7 @@ main h2 {
   text-transform: uppercase;
   text-align: center;
   text-decoration: none;
+  font-weight: bold;
 }
 .main_cursos h4 {
   background-color: #CCD1D1;
@@ -439,57 +474,77 @@ main h2 {
 
 .barcelona {
   width: 80%;
-  height: 200px;
+  height: 300px;
   border: 2px solid white;
   background-size: cover;
   margin-top: 2%;
   margin-bottom: 2%;
   background-image: url(../Imagenes/barcelona.jpeg);
   background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 5%;
 }
 
 .granada {
   width: 80%;
-  height: 200px;
+  height: 300px;
   border: 2px solid white;
   background-size: cover;
   margin-top: 2%;
   margin-bottom: 2%;
   background-image: url(../Imagenes/granada.jpg);
   background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 5%;
 }
 
 .saopaolo {
   width: 80%;
-  height: 200px;
+  height: 300px;
   border: 2px solid white;
   background-size: cover;
   margin-top: 2%;
   margin-bottom: 2%;
   background-image: url(../Imagenes/saopaolo.jpg);
   background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 5%;
 }
 
 .mendoza {
   width: 80%;
-  height: 200px;
+  height: 300px;
   border: 2px solid white;
   background-size: cover;
   margin-top: 2%;
   margin-bottom: 2%;
   background-image: url(../Imagenes/mendoza.jpg);
   background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 5%;
 }
 
 .gante {
   width: 80%;
-  height: 200px;
+  height: 300px;
   border: 2px solid white;
   background-size: cover;
   margin-top: 2%;
   margin-bottom: 2%;
   background-image: url(../Imagenes/gante.jpg);
   background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 5%;
 }
 
 .cont_doctrina {
@@ -526,6 +581,10 @@ main h2 {
   margin-top: 2%;
   margin-bottom: 2%;
   text-align: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 5%;
 }
 
 .prosti {
@@ -537,6 +596,10 @@ main h2 {
   margin-top: 2%;
   margin-bottom: 2%;
   text-align: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 5%;
 }
 
 .metaverso {
@@ -548,6 +611,10 @@ main h2 {
   margin-top: 2%;
   margin-bottom: 2%;
   text-align: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 5%;
 }
 
 .com_foto,
@@ -624,12 +691,6 @@ main h2 {
   justify-content: center;
 }
 
-#cyp {
-  font-family: "roboto", sans-serif;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
 .main_comunidad {
   background-color: black;
   display: flex;
@@ -663,6 +724,9 @@ main h2 {
   padding: 0%;
   justify-items: center;
 }
+.ultimasNovedades h3 {
+  font-weight: bold !important;
+}
 @media (min-width: 991px) {
   .ultimasNovedades {
     display: grid;
@@ -685,6 +749,10 @@ main h2 {
   margin-top: 2%;
   margin-bottom: 2%;
   text-align: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 5%;
 }
 
 .novedadDos {
@@ -696,6 +764,10 @@ main h2 {
   margin-top: 2%;
   margin-bottom: 2%;
   text-align: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 5%;
 }
 
 .novedadTres {
@@ -707,33 +779,18 @@ main h2 {
   margin-top: 2%;
   margin-bottom: 2%;
   text-align: center;
-}
-
-.novedadCuatro {
-  background-image: url(../Imagenes/disciminacion.jpg);
-  border: 2px solid white;
-  width: 100%;
-  height: 300px;
-  background-size: cover;
-  margin-top: 2%;
-  margin-bottom: 2%;
-  text-align: center;
-}
-
-.novedadCinco {
-  background-image: url(../Imagenes/maestraDespedida.jpg);
-  border: 2px solid white;
-  width: 100%;
-  height: 300px;
-  background-size: cover;
-  margin-top: 2%;
-  margin-bottom: 2%;
-  text-align: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 5%;
 }
 
 .nov_junio {
   display: flex;
   justify-content: center;
+}
+.nov_junio h3 {
+  font-weight: bold !important;
 }
 
 .novedadesJunio {
@@ -760,17 +817,6 @@ main h2 {
   }
 }
 
-.startups {
-  background-image: url(../Imagenes/despidomasivo.jpg);
-  border: 2px solid white;
-  width: 100%;
-  height: 300px;
-  background-size: cover;
-  margin-top: 2%;
-  margin-bottom: 2%;
-  text-align: center;
-}
-
 .neymar {
   background-image: url(../Imagenes/neymar.jpg);
   border: 2px solid white;
@@ -780,6 +826,10 @@ main h2 {
   margin-top: 2%;
   margin-bottom: 2%;
   text-align: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 5%;
 }
 
 .plataformas {
@@ -791,6 +841,10 @@ main h2 {
   margin-top: 2%;
   margin-bottom: 2%;
   text-align: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 5%;
 }
 
 .cuper {
@@ -802,35 +856,10 @@ main h2 {
   margin-top: 2%;
   margin-bottom: 2%;
   text-align: center;
-}
-
-.prueba {
   display: flex;
-  justify-content: space-around;
-}
-
-.prueba3 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: stretch;
-}
-
-.prueba4 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: stretch;
-}
-
-.prueba2 {
-  display: flex;
+  align-items: flex-end;
   justify-content: center;
-}
-
-.pruebaimg {
-  display: flex;
-  justify-content: center;
+  padding-bottom: 5%;
 }
 
 @media (min-widht: 481px) {
