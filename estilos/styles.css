@@ -771,11 +771,12 @@ main h2 {
 .section_ultimas {
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
 .ultimasNovedades {
   display: grid;
-  width: 80%;
+  width: 100%;
   grid-template-columns: 1fr;
   grid-column-gap: 2%;
   text-align: center;
@@ -789,7 +790,7 @@ main h2 {
 @media (min-width: 991px) {
   .ultimasNovedades {
     display: grid;
-    width: 80%;
+    width: 95%;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 2%;
     text-align: center;
@@ -857,7 +858,7 @@ main h2 {
   grid-template-columns: 1fr;
   grid-column-gap: 2%;
   display: grid;
-  width: 80%;
+  width: 100%;
   text-align: center;
   margin: 0%;
   padding: 0%;
@@ -866,7 +867,7 @@ main h2 {
 @media (min-width: 991px) {
   .novedadesJunio {
     display: grid;
-    width: 80%;
+    width: 95%;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 2%;
     text-align: center;
