@@ -128,13 +128,14 @@ section h2 {
 @media (min-width: 991px) {
   .contenido {
     display: grid;
-    width: 100%;
+    width: 95%;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 0%;
     padding: 0%;
-    justify-content: center;
     justify-items: center;
     text-align: center;
+    grid-column-gap: 1%;
+    justify-content: space-around !important;
   }
 }
 .contenido h3 {
@@ -474,7 +475,7 @@ main h2 {
 
 .grilla {
   display: grid;
-  width: 80%;
+  width: 100%;
   grid-template-columns: 1fr;
   margin: 0%;
   padding: 0%;
@@ -486,11 +487,11 @@ main h2 {
   .grilla {
     display: grid;
     width: 100%;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     margin: 0%;
     padding: 0%;
     text-align: center;
-    grid-template-areas: "barcelona barcelona granada granada" "saopaolo saopaolo mendoza mendoza" "gante gante gante gante";
+    grid-template-areas: "barcelona granada" "saopaolo mendoza" "gante gante";
   }
 }
 .grilla h3 {
@@ -614,10 +615,13 @@ main h2 {
   align-items: center;
   text-align: center;
 }
+.cont_ultimas a {
+  text-decoration: none !important;
+}
 @media (min-width: 991px) {
   .cont_ultimas {
     display: grid;
-    width: 80%;
+    width: 95%;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 2%;
     text-align: center;
@@ -935,7 +939,7 @@ main h2 {
 
 em {
   color: white;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .menus li a:hover {

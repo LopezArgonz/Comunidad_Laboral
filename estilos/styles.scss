@@ -137,13 +137,14 @@ section{
         
     @media (min-width:991px){
         display: grid;
-        width: 100%;   
-        grid-template-columns: 1fr 1fr 1fr;             
+        width: 95%;   
+        grid-template-columns: 1fr 1fr 1fr;                     
         margin: 0%;
-        padding: 0%;
-        justify-content:center;  
+        padding: 0%;      
         justify-items: center;
-        text-align: center;                          
+        text-align: center; 
+        grid-column-gap: 1%;
+        justify-content: space-around!important;                         
     } 
    
 
@@ -468,7 +469,7 @@ main{
 
 .grilla{
     display: grid;
-    width: 80%;   
+    width: 100%;   
     grid-template-columns: 1fr;   
     margin: 0%;
     padding: 0%;  
@@ -480,13 +481,13 @@ main{
     @media (min-width:991px){
         display: grid;
         width: 100%;   
-        grid-template-columns: 1fr 1fr 1fr 1fr;                  
+        grid-template-columns: 1fr 1fr;                  
         margin: 0%;
         padding: 0%;       
         text-align: center;
-        grid-template-areas: "barcelona barcelona granada granada"
-                            "saopaolo saopaolo mendoza mendoza"
-                            "gante gante gante gante";                          
+        grid-template-areas:"barcelona granada"
+                            "saopaolo mendoza"
+                            "gante gante";                          
     } 
    
  
@@ -610,11 +611,15 @@ main{
     background-color: $fondonegro;     
     flex-direction: column;    
     align-items: center;
-    text-align: center;    
+    text-align: center;
+    
+    a{
+        text-decoration: none!important;
+    }
 
     @media (min-width:991px){
         display: grid;
-        width: 80%;   
+        width: 95%;   
         grid-template-columns: 1fr 1fr 1fr;
         grid-column-gap: 2%;    
         text-align: center;
@@ -898,7 +903,7 @@ main{
 
 em{
     color: white;
-    text-decoration: none;
+    text-decoration: none!important;  
 }
 
 .menus {  
