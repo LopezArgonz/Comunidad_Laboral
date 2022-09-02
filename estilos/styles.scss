@@ -466,6 +466,41 @@ main{
 
 }
 
+.grilla{
+    display: grid;
+    width: 80%;   
+    grid-template-columns: 1fr;   
+    margin: 0%;
+    padding: 0%;  
+    background-color: $fondonegro;   
+    justify-items: center;  
+    text-align: center;
+   
+        
+    @media (min-width:991px){
+        display: grid;
+        width: 100%;   
+        grid-template-columns: 1fr 1fr 1fr 1fr;                  
+        margin: 0%;
+        padding: 0%;       
+        text-align: center;
+        grid-template-areas: "barcelona barcelona granada granada"
+                            "saopaolo saopaolo mendoza mendoza"
+                            "gante gante gante gante";                          
+    } 
+   
+ 
+    h3{
+        margin: 0%;
+        padding: 0%;        
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;       
+        font-weight: bolder;
+        text-align: center;              
+    }
+
+    
+}
 .barcelona{
     width: 80%;
     height: 300px;
@@ -478,7 +513,11 @@ main{
     display: flex; 
     align-items: flex-end;
     justify-content: center;
-    padding-bottom: 5%;       
+    padding-bottom: 5%; 
+    
+    @media (min-width:991px){
+        grid-area: barcelona; 
+    }      
 }
 
 .granada{
@@ -493,8 +532,11 @@ main{
     display: flex; 
     align-items: flex-end;
     justify-content: center;
-    padding-bottom: 5%; 
-
+    padding-bottom: 5%;
+        
+    @media (min-width:991px){
+        grid-area: granada; 
+    }  
 }
 
 .saopaolo{
@@ -510,6 +552,11 @@ main{
     align-items: flex-end;
     justify-content: center;
     padding-bottom: 5%; 
+    
+    @media (min-width:991px){
+        grid-area: saopaolo; 
+    }  
+ 
 
 }
 
@@ -526,6 +573,10 @@ main{
     align-items: flex-end;
     justify-content: center;
     padding-bottom: 5%; 
+    
+    @media (min-width:991px){
+        grid-area: mendoza; 
+    }
 
 }
 
@@ -542,6 +593,11 @@ main{
     align-items: flex-end;
     justify-content: center;
     padding-bottom: 5%; 
+    
+    
+    @media (min-width:991px){
+        grid-area: gante; 
+    }
 
 }
 
