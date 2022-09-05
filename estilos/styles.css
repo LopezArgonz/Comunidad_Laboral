@@ -439,6 +439,7 @@ main h2 {
 }
 .main_cursos p {
   background: #CCD1D1;
+  text-transform: none;
 }
 .main_cursos h1 {
   font-family: "Cormorant SC", serif;
@@ -467,10 +468,15 @@ main h2 {
 }
 .main_cursos img {
   width: 100%;
-  height: auto;
+  height: 400px;
+  border: solid black 2px;
 }
 .main_cursos ul {
   padding: 0;
+}
+.main_cursos a {
+  text-decoration: none !important;
+  text-transform: uppercase;
 }
 
 .grilla {
@@ -935,7 +941,13 @@ main h2 {
 
 .enlacesturismo {
   background-color: #CCD1D1;
+}
+.enlacesturismo p {
   color: white;
+  padding-left: 3%;
+}
+.enlacesturismo li {
+  display: inline !important;
 }
 
 em {
